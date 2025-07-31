@@ -1,11 +1,11 @@
 package main
 
 import (
-	"fmt"
-	"leetcode/medium"
+	"leetcode/easy"
 )
 
 func main() {
-	input := []int{2,0,0}
-	fmt.Println(medium.JumpGame(input))
+	input1, input2 := []int{0}, []int{1}
+	easy.MergeSortedArray(input1, 0, input2, 1)
+
 }

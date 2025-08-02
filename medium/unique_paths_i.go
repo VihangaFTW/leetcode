@@ -1,6 +1,6 @@
 package medium
 
-func UniquePaths(m int, n int) int {
+func UniquePaths1(m int, n int) int {
 	//* dp cache: cache[row][col] = number of unique paths to reach (row, col) from start.
 	cache := make([][]int, m)
 	for i := range cache {
@@ -29,7 +29,7 @@ func UniquePaths(m int, n int) int {
 
 }
 
-func UniquePathsOptimized(m int, n int) int {
+func UniquePaths1Optimized(m int, n int) int {
 	//* condense previous implementation by reusing one row
 	cache := make([]int, n)
 	//* base case: fill up the first row with 1s (this is row 0 of prev implementation)

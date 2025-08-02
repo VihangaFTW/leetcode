@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"leetcode/medium"
+	"leetcode/hard"
 )
 
 func main() {
-	grid := [][]int{{0,0,0}, {0,1,0}, {0,0,0}}
-	fmt.Println(medium.UniquePaths2Optimized(grid))
+	grid := [][]int{{1, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 2}}
+	fmt.Println(hard.UniquePaths3(grid))
 
 }

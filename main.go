@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println(medium.UniquePaths(5, 5))
+	grid := [][]int{{0,0,0}, {0,1,0}, {0,0,0}}
+	fmt.Println(medium.UniquePaths2Optimized(grid))
 
 }

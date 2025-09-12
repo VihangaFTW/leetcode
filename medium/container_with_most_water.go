@@ -7,7 +7,6 @@ func ContainerWithMaxWater(height []int) int {
 
 	left, right := 0, n-1
 
-	
 	//? worst case time is O(N) cuz we examine each index exactly once
 	for left != right {
 
